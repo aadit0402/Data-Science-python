@@ -29,4 +29,18 @@ df.to_csv('/home/aditya/Data-Science-python/sample_data.csv')
     json_data = open('filename')
     data = json.load(filename)
     json_data.close()'''
+    
+#we can manually assign the row name and column name
+df = pd.DataFrame(np.random.randn(5,3), index=['a0','a10','a20','a30','a40'], columns=['x', 'y', 'z'])
+print df
+
+df = df.reindex(['a0','a1', 'a10', 'a11', 'a20', 'a21', 'a30', 'a31', 'a40', 'a41'])
+print df
+
+#filling NULL value
+
+#df.fillna(2) #donot know this is not working
+print df.fillna(2) #its working
+
+
 
