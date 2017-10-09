@@ -50,3 +50,7 @@ print n_array[:, 1] # first column of the array
 print "shape manipulation"
 print n_array.ravel() #it will change the shape of the array; flatten the array
 
+n_array.shape = (6,2) # change the shape to 6 by 2 from 3 by 4
+print  n_array
+
+print n_array.transpose() #transpose of array
