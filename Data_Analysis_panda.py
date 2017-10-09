@@ -34,7 +34,9 @@ df = pd.DataFrame(d)
 print df
 
 '''panel is a data structure that handles 3d data'''
-
+d = {'Item1': pd.DataFrame(np.random.randn(4,3)), 
+     'Item2': pd.DataFrame(np.random.randn(4,2))}
+print pd.Panel(d)
 
 
 
