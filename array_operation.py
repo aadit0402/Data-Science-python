@@ -54,3 +54,4 @@ n_array.shape = (6,2) # change the shape to 6 by 2 from 3 by 4
 print  n_array
 
 print n_array.transpose() #transpose of array
+
