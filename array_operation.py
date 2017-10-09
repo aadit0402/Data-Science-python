@@ -47,5 +47,6 @@ print n_array[2, 0:4] #third row of value
 #print n_array[3, 0:4] // error index 3 is out of bound for axis 0 with size 3 when we try to access the data beyond the array
 print n_array[:, 1] # first column of the array
 
-
+print "shape manipulation"
+print n_array.ravel() #it will change the shape of the array; flatten the array
 
