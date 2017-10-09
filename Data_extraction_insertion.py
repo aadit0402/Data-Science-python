@@ -21,5 +21,12 @@ d = {'c1':pd.Series(['a', 'b', 'c']), 'c2':pd.Series([1,2., 3.,4.])}
 df = pd.DataFrame(d)
 df.to_csv('/home/aditya/Data-Science-python/sample_data.csv') 
 
-
+'''to read and write data from xls file, xlrd and xlwt package should be installed for pandas'''
+#d = pd.read_excel('path of the xls file')
+#df.to_excel('location of file where you want to write the data)
+''' to read data from a JSON file, json package can be used 
+    import json
+    json_data = open('filename')
+    data = json.load(filename)
+    json_data.close()'''
 
