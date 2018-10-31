@@ -25,6 +25,7 @@ print pd.Series(np.random.randn(5), index = ['a', 'b', 'c', 'd', 'e'])
 d = {'a':10, 'b':20, 'c':30, 'd':40, 'e':50}
 print pd.Series(d)
 
+'''Added comment here to test. It is just for learning purpose'''
 '''DataFrame is a 2d structure with columns that can be of different datatypes. (table)'''
 '''A dataFrame can be formed from following data structure a numpy array, list, dicts, series, a 2d numpy array'''
 #using dict
